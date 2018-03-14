@@ -33,5 +33,4 @@ def update_value(input_data):
 
 
 if __name__ == '__main__':
-    host = '0.0.0.0'
-    app.run_server(debug=True)
+    app.run_server(host = '0.0.0.0', debug=True)
