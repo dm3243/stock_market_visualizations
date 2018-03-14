@@ -1,0 +1,27 @@
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Distribution / packaging
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtualenv
+cnn_ticker_env/
+
+# macOS
+.DS_Store
+
+
+# Pycharm
+.idea/
+
+# Visual Stuido Code
+.vscode/
+
+# sqlite
+*.sqlite3
+*.db

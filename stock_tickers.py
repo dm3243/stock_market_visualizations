@@ -14,11 +14,11 @@ app.layout = html.Div(children=[
     html.Div(id='output-graph')
 ]) 
 
+
 @app.callback(
     Output(component_id='output-graph', component_property='children'),
     [Input(component_id='input', component_property='value')]
 )
-
 def update_value(input_data):
     start = datetime.datetime(2018, 1, 1)
     end = datetime.datetime.now()
